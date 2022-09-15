@@ -62,3 +62,14 @@ header {
     font-weight: 400;
     letter-spacing: 0.06em;
 }
+
+.grade-filmes {
+    background-color: #ffffff;
+    
+}
+
+.grade-filmes h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin: 20px;
+}
