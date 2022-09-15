@@ -34,36 +34,33 @@ header {
 }
 
 
-h1 {
-    color: red;
-    font-family:Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 850;
-    font-size: 52px;
-    width: 222px;
+.conteudo-banner h1 {
+    color: #E51B3E;
+    font-weight: 900;
+    font-size: 72px;
+    max-width: 90%;
     
    
 }
 
 .conteudo-p {
     color: #ffffff;
-    font-family:'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight: 50;
-    width: 222px;
+    font-size: 24px;
+    font-weight: 300;
+    max-width: 90%;
     padding-bottom: 25px;
-   
-   
 }
 
-.btnExplorar {
-    width: 222px;
-    height: 50px;
+.botaoExplorar {
+    width: 320px;
+    height: 70px;
     background: rgba(51, 187, 105, 0.05);
     border: 1px solid #33BB69;
     border-radius: 12px;
     color: #ffffff;
-    
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
 }
 
 .banner-cards {
