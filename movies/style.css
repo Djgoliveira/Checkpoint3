@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+        .cabeca {    
+            background-color: #ffffff;
+            width: 1440px;
+            height: 80px;  
+        }
+
+        a:link {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .botao {
+            visibility: hidden;
+        }
+
+        .lista-menu {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            gap: 30px;
+            font-size: 18px; 
+            color: #171717;       
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .imgtopo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;     
+        }
+    
