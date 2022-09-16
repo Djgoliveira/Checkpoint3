@@ -15,10 +15,10 @@
             <img src="./img/logoDigitalHouse.png" alt="digitalHouse" class="Logo Digital House">
             <img src="./img/botaoTopo.png" alt="Icone menu" class="botao">
             <ul class="lista-menu">
-                <li class="home"><a href="#">Home</a></li>
-                <li><a href="#">Itens</a></li>
-                <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Login</a></li>
+                <li class="home"><a href="./index.html">Home</a></li>
+                <li><a href="#bannerh2">Itens</a></li>
+                <li><a href="#rodape">Sobre nós</a></li>
+                <li><a href="./login.html">Login</a></li>
             </ul>                 
         </div>
     </header>
@@ -37,14 +37,17 @@
     <section>
         <article>
             <div class="banner-cards">
-                <h2 class="bannerh2">Itens</h2>
+                <h2 id="bannerh2">Itens</h2>
                 <div class="cards">
                     <div>  
                          <img src="./img/filme1.png" class="filme1" >
                          <div>
                             <p class="titulos">Joker</p>
                               <p class="descricao">Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</p>
-                              <button class="btnAbrir">Abrir</button>  
+                              <a href="./movies/index.html">
+                                <button class="btnAbrir">Abrir</button>  
+                              </a>
+                              
                          </div>                           
                     </div>
                     <div>  
@@ -93,7 +96,7 @@
     </section>
         <section>
             <footer>
-                <div class="rodape">
+                <div id="rodape">
                     <div>
                         <p class="nomes">Douglas Henrique F de Oliveira</p>
                         <p class="dev">Responsável pelo desenvolvimento do site</p>

@@ -89,7 +89,7 @@
             
         }
         
-        .bannerh2 {
+        #bannerh2 {
             font-size: 44px;
             padding: 20px;
             text-align: center;
@@ -155,7 +155,7 @@
             margin-bottom: 20px;
         }
         
-        .rodape {
+        #rodape {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
