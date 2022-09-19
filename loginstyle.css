@@ -87,5 +87,9 @@ body {
     height: 60px;
     background-color: #33BB69;
     color: #ffffff;
+}
 
+input:hover {
+    cursor: pointer;
+    border-color: #E51B3E;
 }
