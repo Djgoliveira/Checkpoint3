@@ -67,7 +67,7 @@ body {
 .formulario-login {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
 .formulario-login input {
