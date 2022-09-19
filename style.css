@@ -5,7 +5,6 @@
 }
         .cabeca {    
             background-color: #ffffff;
-            width: 1440px;
             height: 80px;  
         }
 
@@ -33,6 +32,7 @@
         }
 
         .imgtopo {
+            margin: 0 100px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -41,13 +41,10 @@
     
         .banner {    
             background-image: url('./img/imagemFundo.png');
-            width: 1440px;
-            height: 1023px;
         }
         .conteudo-banner {
             display: flex;
             flex-direction:column;
-            width: 1440px;
             height: 1023px;
             align-items: center;
             justify-content: center;       
@@ -76,7 +73,7 @@
             background: rgba(51, 187, 105, 0.05);
             border: 1px solid #33BB69;
             border-radius: 12px;
-            color: #ffffff;
+            color: #351919;
             font-size: 24px;
             font-weight: 400;
             letter-spacing: 0.06em;
@@ -159,16 +156,13 @@
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        width: 1440px;
         height: 300px;
         background: #171717;
         justify-content: space-around;
-        
         }
     
         .nomes{
             color: white;
-            margin-left: 50px;
             margin-top: 40px;
             font-size: 24px;
             font-weight: 400;
@@ -177,26 +171,24 @@
         
         .dev {
             color: rgba(255, 255, 255, 0.75);
-            margin-left: 50px;
             margin-top: 10px;
             font-weight: 400;
             font-size: 14px;
             line-height: 16px;
         }
         .linked{    
-            margin-left: 50px;
             margin-right: 5px;
             margin-top: 10px;
         }
         
         .rodape-1 {
             color: rgba(255, 255, 255, 0.5);
-            margin-top: 70px;
+            margin-top: 30px;
             font-weight: 400;
             font-size: 18px;
             line-height: 21px;
             text-align: center;
-            width: 428px;
+            width: 100vw;
         }
         
         a:link {
