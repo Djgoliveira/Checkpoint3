@@ -4,142 +4,152 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+
+
+    <title>DH Flix | Home</title>
 </head>
-    <header class="cabeca">
-        <div class="imgtopo">
-            <a href="https://www.digitalhouse.com/">
-                <img src="./img/logoDigitalHouse.png" alt="digitalHouse" class="Logo Digital House">
-            </a>            
+    <header>
+        <div class="menu-topo">
+            <a href="https://www.digitalhouse.com/"> <img src="./img/logoDigitalHouse.png" alt="digitalHouse" class="Logo Digital House"></a>            
             <img src="./img/botaoTopo.png" alt="Icone menu" class="botao">
             <ul class="lista-menu">
                 <li class="home"><a href="./index.html">Home</a></li>
-                <li><a href="#bannerh2">Itens</a></li>
+                <li><a href="#itens">Itens</a></li>
                 <li><a href="#rodape">Sobre nós</a></li>
                 <li><a href="./login.html">Login</a></li>
             </ul>                 
         </div>
     </header>
+
 <body>
-    <section>
+    <div class="card-filme">
         <article>
             <div class="banner">
                 <div class="conteudo-banner">
-                    <h1 class="bannerh1">DH Flix</h1>
-                    <p class="conteudo-p">Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
-                   
-                    <a href="#bannerh2"><button class="botaoExplorar">Explorar</button></a>
-                   
+                    <h1>DH Flix</h1>
+                    <p>Confira a maior coletânea de filmes que a Digital House tem a te oferecer</p>
+                
+                    <a href="#itens"><button class="botao-explorar">Explorar</button></a>
+                
                 </div>
             </div>
         </article>
-    </section>
-    <section>
-        <article>
-            <div class="banner-cards">
-                <h2 id="bannerh2">Itens</h2>
-                <div class="cards">
-                    <div>  
-                         <img src="./img/filme1.png" class="filme1" >
-                         <div>
-                            <p class="titulos">Joker</p>
-                              <p class="descricao">Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</p>
-                              <a href="./movies/joker.html">
-                                <button class="btnAbrir">Abrir</button>  
-                              </a>
-                              
-                         </div>                           
-                    </div>
-                    <div>  
-                        <img src="./img/filme2.png" class="filme1">
-                        <div>
-                           <p class="titulos">Capitã Marvel</p>
-                             <p class="descricao">Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls. Ao tentar impedir uma invasão de larga escala na Terra, em 1995, ela tem memórias recorrentes de uma outra vida, como Carol Danvers, agente da Força Aérea norte-americana...</p>
-                             <a href="./movies/cpmarvel.html">
-                             <button class="btnAbrir">Abrir</button>  
-                             </a>   
-                        </div>                           
-                   </div>
-                   <div>  
-                        <img src="./img/filme3.png" class="filme1">
-                        <div>
-                            <p class="titulos">Dora Aventureira</p>
-                            <p class="descricao">A aventureira Dora rapidamente se vê liderando o macaco Botas, o primo Diego, um misterioso habitante da selva, seus pais e um grupo de adolescentes em uma aventura para resolver um mistério impossível por trás de uma cidade perdida de ouro.</p>
-                            <a href="./movies/dora.html">
-                            <button class="btnAbrir">Abrir</button>  
-                            </a>
-                        </div>                           
-                    </div>
-                    <div>  
-                        <img src="./img/filme4.png" class="filme1">
-                        <div>
-                            <p class="titulos">1917</p>
-                            <p class="descricao">Na Primeira Guerra Mundial, dois soldados britânicos recebem ordens aparentemente impossíveis de cumprir. Em uma corrida contra o tempo, eles precisam atravessar o território inimigo e entregar uma mensagem que pode salvar 1.600 de seus companheiros.</p>
-                            <button class="btnAbrir">Abrir</button>  
-                        </div>                           
-                    </div>
-                    <div>  
-                        <img src="./img/filme5.png" class="filme1">
-                        <div>
-                            <p class="titulos">Thor Mundo Sombrio</p>
-                            <p class="descricao">Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo.</p>
-                            <button class="btnAbrir">Abrir</button>  
-                        </div>                           
-                    </div>
-                    <div>  
-                            <img src="./img/filme6.png" class="filme1">
-                        <div>
-                            <p class="titulos">AFTER</p>
-                            <p class="descricao">Tessa Young é uma jovem com uma vida simples, ótimas notas na escola, muitos amigos e um bom namorado. Todos os próximos passos de sua vida já estão planejados, mas as coisas mudam quando ela conhece um homem atraente e cheio de segredos sombrios.</p>
-                            <button class="btnAbrir">Abrir</button>  
-                        </div>                           
-                    </div>                   
-                </div>
-            </div>
-        </article>
-    </section>
-        <section>
-            <footer>
-                <div id="rodape">
-                    <div>
-                        <p class="nomes">Douglas Henrique F de Oliveira</p>
-                        <p class="dev">Responsável pelo desenvolvimento do site</p>
-                        <a href="https://www.linkedin.com/in/douglas-oliveira-86420372/">
-                            <img src="./img/linked.png" class="linked" title="Linkedin Douglas Henrique">
-                        </a> 
-                        <a href="https://github.com/Djgoliveira">
-                            <img src="./img/gitHub.png" title="GitHub Douglas Henrique" alt="GitHub">
-                        </a>                       
-                        
-                    </div>
-                    <div>
-                        <p class="nomes">Yago Aparecido dos Santos Silva</p>
-                        <p class="dev">Responsável pelo desenvolvimento do site</p>
-                        <a href="https://www.linkedin.com/in/yago-2091b3172/">
-                            <img src="./img/linked.png" class="linked" title="Linkedin Yago Aparecido">
-                        </a>
-                        <a href="https://github.com/YagogesKRYEG">
-                            <img src="./img/gitHub.png" title="GitHub Yago Aparecido ">
-                        </a>                        
-                    </div>
-                    <div>
-                        <p class="nomes">Maria Clara Nunes</p>
-                        <p class="dev">Responsável pelo desenvolvimento do site</p>
-                        <a href="https://www.linkedin.com/in/marianunesm/">
-                            <img src="./img/linked.png" class="linked" title="Linkedin Maria Clara">
-                        </a>
-                        <a href="https://github.com/mcnunesm">
-                            <img src="./img/gitHub.png" title="GitHub Maria Clara">
-                        </a>                       
-                    </div>
-                    <p class="rodape-1">Checkpoint 3 desenvolvido em 2022</p>
+    </div class="card-filme">
 
+        <h2 id="itens">Itens</h2>
+        
+        <div class="banner-cards">
+            <div class="cards">
+                <div class="card-filme">
+                <img src="./img/filme1.png" class="filme">
+                <div class="texto-filme">
+                    <p class="titulos">Joker</p>
+                    <p class="descricao">Isolado, intimidado e desconsiderado pela sociedade, o fracassado comediante Arthur Fleck inicia seu caminho como uma mente criminosa após assassinar três homens em pleno metrô. Sua ação inicia um movimento popular contra a elite de Gotham City, da qual Thomas Wayne é seu maior representante.</p>
+                    <a href="./movies/joker.html"> <button class="botao-abrir">Abrir</button> </a>
                 </div>
-            </footer>
-        </section>   
+            </div>
+            </div>
+        
+            <div class="cards">
+            <div class="card-filme">
+                <img src="./img/filme2.png" class="filme">
+                <div class="texto-filme">
+                    <p class="titulos">Capitã Marvel</p>
+                    <p class="descricao">Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls. Ao tentar impedir uma invasão de larga escala na Terra, em 1995, ela tem memórias recorrentes de uma outra vida, como Carol Danvers, agente da Força Aérea norte-americana...</p>
+                    <a href="./movies/joker.html"> <button class="botao-abrir">Abrir</button> </a>
+            </div>
+            </div>
+                </div>
+            
+            <div class="cards">
+                <div class="card-filme">
+                <img src="./img/filme3.png" class="filme">
+                <div class="texto-filme">
+                    <p class="titulos">Dora Aventureira</p>
+                <p class="descricao">A aventureira Dora rapidamente se vê liderando o macaco Botas, o primo Diego, um misterioso habitante da selva, seus pais e um grupo de adolescentes em uma aventura para resolver um mistério impossível por trás de uma cidade perdida de ouro.</p>
+                <a href="./movies/joker.html"> <button class="botao-abrir">Abrir</button> </a>
+            </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card-filme">
+                <img src="./img/filme4.png" class="filme">
+                <div class="texto-filme">
+                    <p class="titulos">1917</p>
+                    <p class="descricao">Na Primeira Guerra Mundial, dois soldados britânicos recebem ordens aparentemente impossíveis de cumprir. Em uma corrida contra o tempo, eles precisam atravessar o território inimigo e entregar uma mensagem que pode salvar 1.600 de seus companheiros.</p>
+                    <a href="./movies/joker.html"> <button class="botao-abrir">Abrir</button> </a>
+                </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card-filme">
+                <img src="./img/filme5.png" class="filme">
+                <div class="texto-filme">
+                    <p class="titulos">Thor Mundo Sombrio</p>
+                    <p class="descricao">Thor precisa contar com a ajuda de seus companheiros e até de seu traiçoeiro irmão Loki em um plano audacioso para salvar o universo. Entretanto, os caminhos de Thor se cruzam com Jane Foster e, dessa vez, a vida dela está realmente em perigo.</p>
+                    <a href="./movies/joker.html"> <button class="botao-abrir">Abrir</button> </a>
+                </div>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="card-filme">
+                <img src="./img/filme6.png" class="filme">
+                <div class="texto-filme">
+                    <p class="titulos">AFTER</p>
+                    <p class="descricao">Tessa Young é uma jovem com uma vida simples, ótimas notas na escola, muitos amigos e um bom namorado. Todos os próximos passos de sua vida já estão planejados, mas as coisas mudam quando ela conhece um homem atraente e cheio de segredos sombrios.</p>
+                    <a href="./movies/joker.html"> <button class="botao-abrir">Abrir</button> </a>
+                </div>
+                </div>
+            </div>
+        </div>
 </body>
+<footer>
+    <div id="rodape">
+        <div class="item-rodape">
+            <p class="nomes">Douglas Henrique F de Oliveira</p>
+            <p class="dev">Responsável pelo desenvolvimento do site</p>
+            <div class="links">
+            <a href="https://www.linkedin.com/in/douglas-oliveira-86420372/">
+                <img src="./img/linked.png" class="linked" title="Linkedin Douglas Henrique">
+            </a> 
+            <a href="https://github.com/Djgoliveira">
+                <img src="./img/gitHub.png" title="GitHub Douglas Henrique" alt="GitHub">
+            </a> </div>                      
+            
+        </div>
+        <div class="item-rodape">
+            <p class="nomes">Yago Aparecido dos Santos Silva</p>
+            <p class="dev">Responsável pelo desenvolvimento do site</p>
+            <div class="links">
+            <a href="https://www.linkedin.com/in/yago-2091b3172/">
+                <img src="./img/linked.png" class="linked" title="Linkedin Yago Aparecido">
+            </a>
+            <a href="https://github.com/YagogesKRYEG">
+                <img src="./img/gitHub.png" title="GitHub Yago Aparecido ">
+            </a> </div>                       
+        </div>
+        <div class="item-rodape">
+            <p class="nomes">Maria Clara Nunes</p>
+            <p class="dev">Responsável pelo desenvolvimento do site</p>
+            <div class="links">
+            <a href="https://www.linkedin.com/in/marianunesm/">
+                <img src="./img/linked.png" class="linked" title="Linkedin Maria Clara">
+            </a>
+            <a href="https://github.com/mcnunesm">
+                <img src="./img/gitHub.png" title="GitHub Maria Clara">
+            </a> </div>                      
+        </div>
+    </div>
+    
+    <p class="rodape-fim">Checkpoint 3 desenvolvido em 2022</p>
+</div>
+
+</footer>
 </html>
