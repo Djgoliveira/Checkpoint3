@@ -6,6 +6,8 @@
         .cabeca {    
             background-color: #ffffff;
             height: 80px;  
+    width: 1440px;
+
         }
 
         a:link {
@@ -41,6 +43,9 @@
     
         .banner {    
             background-image: url('./img/imagemFundo.png');
+    width: 1440px;
+
+            
         }
         .conteudo-banner {
             display: flex;
@@ -73,7 +78,7 @@
             background: rgba(51, 187, 105, 0.05);
             border: 1px solid #33BB69;
             border-radius: 12px;
-            color: #351919;
+            color: #ffffff;
             font-size: 24px;
             font-weight: 400;
             letter-spacing: 0.06em;
@@ -154,6 +159,8 @@
         
         #rodape {
         display: flex;
+    width: 1440px;
+
         flex-wrap: wrap;
         position: absolute;
         height: 300px;
