@@ -5,7 +5,7 @@
 }
         .cabeca {    
             background-color: #ffffff;
-            width: 1440px;
+            width: 100%;
             height: 80px;  
         }
 
@@ -48,24 +48,26 @@
             font-size: 64px;
         }
 
-.movies{
+.movies {
+    display: inline-block;
     margin-left: 120px;
     justify-content: center;
+    
     
 }
 
 .trailer {
     text-align: center;
-    width: 1196px;
+    width: 100%;
+    font-size: 20px;
     
 }
 
-.youtube {
-    display: flex;    
+.youtube {    
+    display: flex;  
+    justify-content: center; 
     margin-bottom: 20px; 
-    width: 1440px;
-    margin-left: 0px;  
-    
+    width: 100%;       
 }
 
 .diretor-escritor{
@@ -73,14 +75,16 @@
     display: flex;
     gap: 200px;
     font-weight: 500;
-font-size: 20px;
-line-height: 28px;
+    font-size: 20px;
+    line-height: 28px;
 
 }
 
 .resumo {
+    display: flex;
     text-align: justify;
-    width: 1196px;
+    width: 90%;
+    justify-content: center;
 }
 
 .assistentes{
@@ -89,14 +93,19 @@ line-height: 28px;
     color: rgba(0, 133, 255, 0.75);
 
 }
+
+.filmesCard {
+    width: 100%;
+}
   
 
         .rodape {
             display: flex;
             flex-wrap: wrap;
+            gap:30px;
             position: absolute;
-            width: 1440px;
-            height: 300px;
+            width: 100%;
+            height: 250px;
             background: #171717;
             justify-content: space-around;
             
@@ -124,10 +133,13 @@ line-height: 28px;
                 margin-right: 5px;
                 margin-top: 10px;
             }
+
+            
             
             .rodape-1 {
                 color: rgba(255, 255, 255, 0.5);
-                margin-top: 70px;
+                position: absolute;
+                margin-top: 190px;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 21px;
