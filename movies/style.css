@@ -1,12 +1,20 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;    
+}
+
+html,
+body {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
         .cabeca {    
             background-color: #ffffff;
             width: 100%;
-            height: 80px;  
+            height: 80px; 
+            position: fixed; 
         }
 
         li:hover {
@@ -60,7 +68,7 @@
 
 .movies {
     display: inline-block;
-    margin-left: 120px;
+    padding: 0 40px;
     justify-content: center;   
 }
 
@@ -105,21 +113,19 @@
 
 .filmesCard {
     width: 100%;
-    height: 850px;
+    height: 100vh !important;
 }
   
 
-        .rodape {
-            display: flex;
-            flex-wrap: wrap;
-            gap:30px;
-            position: absolute;
-            width: 100%;
-            height: 250px;
-            background: #171717;
-            justify-content: space-around;
-            
-            }
+#rodape {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    position: absolute;
+    height: 300px;
+    background: #171717;
+    justify-content: space-around;
+}
         
             .nomes{
                 color: white;
@@ -148,13 +154,12 @@
             
             .rodape-1 {
                 color: rgba(255, 255, 255, 0.5);
-                position: absolute;
-                margin-top: 190px;
+                margin-top: 30px;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 21px;
                 text-align: center;
-                width: 428px;
+                width: 100vw;
             }
             
             a:link {
@@ -163,4 +168,18 @@
     
             .home {
                 color: #E51B3E;
+            }
+            .foto {
+                display: flex;    
+            }
+            
+            .foto img {    
+                height: 80px;
+                width: 80px;
+                border-radius: 50px;
+                margin-left: 140px;
+                margin-top:-15px;
+            }
+            .movies p {
+                padding: 10px 20px;
             }
