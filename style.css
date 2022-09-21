@@ -8,67 +8,80 @@
 
 html,
 body {
-    overflow-x: hidden
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
+        .cabeca {    
+            background-color: #ffffff;
+            width: 100%;
+            height: 80px; 
+            position: fixed; 
+            z-index: 10;
+        }
 
-input:hover {
-    cursor: pointer;
-    background-color: #37eb7f;
+        li:hover {
+            text-decoration: none;
+             border-radius: 10px;
+            -moz-transform: scale(1.3);
+            -webkit-transform: scale(1.3);
+            transform: scale(1.4); 
+          }
 
-}
+        a:link {
+            text-decoration: none;
+            color: inherit;
+        }
 
-.home {
-    color: #E51B3E;
-}
+        .botao {
+            visibility: hidden;
+        }
 
-a:link {
-    text-decoration: none;
-     border-radius: 10px;
-    -moz-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    transform: scale(1.4); 
-  }
+        .lista-menu {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            gap: 30px;
+            font-weight:bold;
+            font-size: 19px;
+            color: #171717;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .imgtopo {
+            margin: 0 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .home {
+        color:red;
+        }
 
 
+        input:hover {
+            cursor: pointer;
+            background-color: #37eb7f;
+        }
 
-
-.cabeca {
-    background-color: #ffffff;
-    height: 80px;
-    width: 100%;
-}
-
-a:link {
-    text-decoration: none;
-    color: inherit;
-}   
-
-.botao {
-    visibility: hidden;
-}
-
-.lista-menu {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    gap: 30px;
-    font-size: 18px; 
-    color: #171717;     
-}
 
 .menu-topo {
     margin: 0 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;    
+    padding: 20px;
 }
 
 .banner {
     background-image: url('./img/imagemFundo.png');
     width: 100%;
-
-
 }
 
 .conteudo-banner {
@@ -77,36 +90,47 @@ a:link {
     width: 100%;
     height: 1023px;
     align-items: center;
+    background-attachment: fixed;
     justify-content: center;
 }
 
 
 .bannerh1 {
-    color: #E51B3E;
+    color: #ff002b;
     font-weight: 900;
-    font-size: 62px;
+    font-size: 72px;
+    text-align: left;
+    width: 450px;
+       
 }
 
 .conteudo-banner p {
     color: #ffffff;
     font-size: 25px;
     font-weight: 300;
-    padding: 30px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    width: 900px;
 }
 
-.botao-explorar {
+.botaoExplorar {
     width: 320px;
-    height: 70px;
+    height: 80px;
     background: rgba(51, 187, 105, 0.05);
     border: 1px solid #33BB69;
-    border-radius: 12px;
+    border-radius: 15px;
     color: #ffffff;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0.06em;
 }
 
-.botao-explorar:hover {
+.conteudo-banner a{
+    margin-left: 0px;
+    width: 24%;
+}
+
+.botaoExplorar:hover {
     cursor: pointer;
 }
 
@@ -114,6 +138,7 @@ a:link {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
+    height: 1852px;
 }
 
 .card-filme {
@@ -121,7 +146,7 @@ a:link {
     display: inline;
 }
 
-#itens {
+#bannerh2 {
     font-size: 44px;
     padding: 20px;
     text-align: center;
@@ -162,8 +187,8 @@ a:link {
     padding: 10px;
 }
 
-.botao-abrir {
-    margin: 50px 30px;
+.btnAbrir {
+    margin: 50px 0px;
     background-color: #33BB69;
     color: #ffffff;
     width: 200px;
@@ -172,12 +197,13 @@ a:link {
     font-size: 20px;
     border-color: #33BB69;
     border-style: none;
+    
 }
 
 .btnAbrir {
     position: absolute;
-    margin-top: -80px;
-    margin-left: 70px;
+    margin-top: -0px;
+    margin-left: 50px;
 
 }
 
@@ -195,6 +221,8 @@ a:link {
     align-items: center;
     background-color: #171717;
     padding: 10px;
+    height: 310px;
+    
 }
 
 .nomes {
@@ -233,12 +261,14 @@ a:link {
 
 .rodape-1 {
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 30px;
+    background-color: #171717;
+    width: 100%;
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
-    width: 100vw;
+    
+    
 }
 
 .links {
@@ -308,9 +338,6 @@ button:hover {
     background-color: #33bb699a;
 }
 
-input:hover {
-    border-color: #E51B3E;
-}
 
 /* Responsividade */
 
