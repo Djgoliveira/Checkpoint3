@@ -51,9 +51,7 @@
 .movies {
     display: inline-block;
     margin-left: 120px;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 
 .trailer {
@@ -85,6 +83,7 @@
     text-align: justify;
     width: 90%;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .assistentes{

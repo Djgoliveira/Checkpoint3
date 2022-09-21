@@ -3,11 +3,17 @@
     margin: 0px;
     font-family: 'Roboto', sans-serif;
 }
+
+html, body 
+{ 
+  overflow-x: hidden
+}
+
+
         .cabeca {    
             background-color: #ffffff;
             height: 80px;  
             width: 100%;
-
         }
 
         a:link {
@@ -87,16 +93,19 @@
         }
         
         .banner-cards {   
+            display: flex;
             width: 100%;
-          align-items: center;     
+            align-items: center;     
+            justify-content: space-around;
             
         }
         
-        #bannerh2 {
+        #bannerh2 {            
+            display: flex;
             font-size: 44px;
-            padding: 20px;
-            text-align: center;
+            align-items: center;
             justify-content: center;
+            
         }
         
         .cards {    
@@ -161,7 +170,6 @@
         #rodape {
         display: flex;
         width: 100%;
-
         flex-wrap: wrap;
         position: absolute;
         height: 300px;
