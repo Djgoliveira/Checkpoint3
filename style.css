@@ -7,10 +7,25 @@
 
 header {
     background-color: #ffffff;
-
-    /* width: 100vw; */
-    /* position: fixed; */
+    position: fixed;
+    z-index: 10;
+    width: 100%;
 }
+
+html,
+body {
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+input:active {
+    background-color: #46434310;
+}
+
+main {
+    display: block;
+  }
 
 .home {
     color: #E51B3E;
@@ -44,7 +59,7 @@ li:hover {
     justify-content: center;
     list-style: none;
     gap: 30px;
-    font-size: 18px; 
+    font-size: 19px; 
     color: #171717;     
 }
 
@@ -69,6 +84,16 @@ li:hover {
     height: 1023px;
     align-items: center;
     justify-content: center;  
+}
+
+.conteudo-banner::after {
+    content: "";
+    z-index: 8;
+    width: 100% ;
+    height: 41%;
+    margin-top: 640px;
+    position: absolute;
+    background: linear-gradient(to bottom, rgba(0,0,0,0)0, rgba(0,0,0,0) 40%, rgb(255, 255, 255) 100%);
 }
 
 .conteudo-banner h1 {
@@ -188,13 +213,44 @@ li:hover {
 .rodape-fim {
     background-color: #171717;
     text-align: center;
-    padding-bottom: 10px;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
 }
 
 .links {
     display: flex;
     gap: 10px;
 }
+
+.nomes {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.foto {
+    display: flex;
+}
+
+.foto img {    
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+
+.dev {
+    color: rgba(255, 255, 255, 0.75);
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
 
 /* Página de login */
 
@@ -413,3 +469,4 @@ input:hover {
         height: 60px;
     }
 }
+
