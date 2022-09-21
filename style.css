@@ -3,18 +3,13 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    
 }
 
-html,
-body {
-    overflow-x: hidden
-}
+header {
+    background-color: #ffffff;
 
-input:hover {
-    cursor: pointer;
-    background-color: #37eb7f;
-
+    /* width: 100vw; */
+    /* position: fixed; */
 }
 
 .home {
@@ -23,22 +18,10 @@ input:hover {
 
 a:link {
     text-decoration: none;
-     border-radius: 10px;
-    -moz-transform: scale(1.3);
-    -webkit-transform: scale(1.3);
-    transform: scale(1.4); 
-  }
-
-
-
-
-.cabeca {
-    background-color: #ffffff;
-    height: 80px;
-    width: 100%;
+    color: inherit;
 }
 
-a:link {
+a:visited {
     text-decoration: none;
     color: inherit;
 } 
@@ -74,23 +57,21 @@ li:hover {
 }
 
 .banner {
-    background-image: url('./img/imagemFundo.png');
-    width: 100%;
-
-
+    background-image: url(./img/imagemFundo.png);
+    background-repeat: no-repeat;
+    height: 1023px;
+    background-size: cover;
 }
 
 .conteudo-banner {
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: 1023px;
     align-items: center;
-    justify-content: center;
+    justify-content: center;  
 }
 
-
-.bannerh1 {
+.conteudo-banner h1 {
     color: #E51B3E;
     font-weight: 900;
     font-size: 62px;
@@ -138,12 +119,11 @@ li:hover {
 
 .cards {
     display: flex;
-    flex-wrap: wrap;
-    width: 90%;
-    gap: 150px;
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 10px;
     margin: 20px;
-    justify-content: space-around;
-
+    text-align: center;
 }
 
 .titulos {
@@ -183,17 +163,8 @@ li:hover {
     border-style: none;
 }
 
-.btnAbrir {
-    position: absolute;
-    margin-top: -80px;
-    margin-left: 70px;
-
-}
-
-.filme1 {
-    display: inline-block;
-    gap: 20px;
-    margin-bottom: 20px;
+.botao-abrir:hover {
+    cursor: pointer;
 }
 
 /* Rodapé */
@@ -206,48 +177,18 @@ li:hover {
     padding: 10px;
 }
 
-.nomes {
-    color: white;
-    margin-top: 40px;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 28px;
-}
-
-.foto {
+.item-rodape {
     display: flex;
-    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
-.foto img {    
-    height: 80px;
-    width: 80px;
-    border-radius: 50px;
-    margin-left: 90px;  
-    
-}
-
-.dev {
-    color: rgba(255, 255, 255, 0.75);
-    margin-top: 10px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.linked {
-    margin-right: 5px;
-    margin-top: 10px;
-}
-
-.rodape-1 {
-    color: rgba(255, 255, 255, 0.5);
-    margin-top: 30px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+.rodape-fim {
+    background-color: #171717;
     text-align: center;
-    width: 100vw;
+    padding-bottom: 10px;
 }
 
 .links {
