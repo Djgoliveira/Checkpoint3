@@ -72,7 +72,7 @@ a:visited {
     color: #ffffff;
     font-size: 25px;
     font-weight: 300;
-    margin-bottom: 50px;
+    padding: 30px;
 }
 
 .botao-explorar {
@@ -93,7 +93,7 @@ a:visited {
 
 .banner-cards {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-flow: row wrap;
 }
 
@@ -134,11 +134,12 @@ a:visited {
 }
 
 .descricao {
-    max-width: 311px;
+    width: 311px;
     font-size: 15px;
     line-height: 21px;
     font-weight: 290;
     text-align: justify ;
+    padding: 10px;
 }
 
 .botao-abrir {
@@ -149,7 +150,6 @@ a:visited {
     height: 50px;
     border-radius: 12px;
     font-size: 20px;
-    margin-left: 30px;
     border-color: #33BB69;
     border-style: none;
 }
@@ -201,12 +201,16 @@ a:visited {
     margin: 180px 0 140px 0;
 }
 
+.fundo-login {
+    background-image: url(./img/imagemFundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .login-box {
     display: flex;
     justify-content: center;
-    background-image: url(./img/imagemFundo.png);
-    background-size: 100vw;
-    background-repeat: no-repeat;
+    
 }
 
 .formulario-login {
@@ -263,7 +267,7 @@ input:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
+    } 
 
     .banner {
         background-image: url(./img/fundobanner.png);
@@ -275,7 +279,6 @@ input:hover {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 100vw;
         padding: 10px;
     }
 
@@ -287,19 +290,60 @@ input:hover {
         .conteudo-banner p {
             font-size: 15px;
             font-weight: 300;
-            padding: 30px 30px 0 30px;
+            padding: 30px;
             text-align: center;
         }
 
         .botao-explorar {
             width: 200px;
             height: 60px;
-            background: rgba(51, 187, 105, 0.05);
-            border: 1px solid #33BB69;
-            border-radius: 12px;
-            color: #ffffff;
-            font-size: 24px;
-            font-weight: 400;
-            letter-spacing: 0.06em;
         }
+
+        .login-box {
+            max-width: 80%;
+        }
+
+        .fundo-login {
+            background-image: url(./img/fundobanner.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .area-login {
+            max-width: 80%;
+        }
+
+        .area-login img {
+            max-width: 90%;
+        }
+}
+
+@media (max-width: 688px) { 
+
+    .lista-menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #rodape {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .conteudo-banner p {
+        font-size: 22px;
+        font-weight: 300;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .botao-explorar {
+        width: 200px;
+        height: 60px;
+    }
 }
