@@ -161,6 +161,19 @@
                 text-decoration: none;
             }
     
-            .home {
-                color: #E51B3E;
+            
+            
+            .foto {
+                display: flex;    
+            }
+            
+            .foto img {    
+                height: 80px;
+                width: 80px;
+                border-radius: 50px;
+                margin-left: 140px;
+                margin-top:-15px;
+            }
+            .movies p {
+                padding: 10px 20px;
             }
