@@ -31,6 +31,10 @@ main {
     color: #E51B3E;
 }
 
+.filme {
+    border-radius: 15px;
+}
+
 a:link {
     text-decoration: none;
     color: inherit;
@@ -53,6 +57,16 @@ li:hover {
     visibility: hidden;
     margin-left: 80px; 
 }
+
+.cards:hover {
+    width: 329px;
+    height: 551px;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s  
+}
+
 
 .lista-menu {
     display: flex;
@@ -124,6 +138,10 @@ li:hover {
 
 .botao-explorar:hover {
     cursor: pointer;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s 
 }
 
 .banner-cards {
@@ -193,6 +211,10 @@ li:hover {
 
 .botao-abrir:hover {
     cursor: pointer;
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: 0.5s 
 }
 
 /* Rodapé */
@@ -376,6 +398,8 @@ input:hover {
 .youtube {
     margin: 15px;
 }
+
+
 
 
 /* Responsividade */
