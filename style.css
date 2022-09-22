@@ -427,6 +427,9 @@ input:hover {
 
 .youtube {
     margin: 15px;
+    width: 800px;
+    height: 450px;
+
 }
 
 
@@ -442,6 +445,7 @@ input:hover {
 
     .lista-menu {
         visibility: hidden;
+        flex-direction: column;
     }
 
     .menu-topo {
@@ -499,9 +503,27 @@ input:hover {
     .area-login img {
                 max-width: 90%;
     }
+
+    .youtube {
+        width: 400px;
+        height: 225px;
+      }
+
+    .banner-movie img {
+        width: 80vw;
+        height: 40vw;
+        margin-top: 300px;
+        border-radius: 20px;
+    }
+
+    .movies {
+        padding: 0 50px;
+   }
+
+
 }
 
-@media (max-width: 688px) { 
+ @media (max-width: 688px) { 
 
     .lista-menu {
         flex-direction: column;
@@ -543,4 +565,4 @@ input:hover {
         height: 225px;
       }
 }
-
+ 
