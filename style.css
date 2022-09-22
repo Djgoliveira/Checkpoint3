@@ -87,7 +87,7 @@ li:hover {
     background-repeat: no-repeat;
     height: 1023px;
     background-size: cover;
-    box-shadow: 6px 6px 13px 0px rgba(20, 20, 20, 0.438);
+    box-shadow: 6px 6px 13px 0px rgba(20, 20, 20, 0.6);
     display: flex;
     flex-direction: column;
     height: 1023px;
@@ -449,9 +449,6 @@ input:hover {
 
 }
 
-
-
-
 /* Responsividade */
 
 @media (max-width: 428px) {
@@ -473,6 +470,7 @@ input:hover {
         background-image: url(./img/fundobanner.png);
         background-repeat: no-repeat;
         background-size: cover;
+        
     }
 
     #rodape {
