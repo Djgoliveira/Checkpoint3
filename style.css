@@ -397,9 +397,10 @@ input:hover {
 }
 
 .banner-movie img {
-  width: 50vw;
-  height: 25vw;
+  width: 70vw;
+  height: 35vw;
   margin-top: 200px;
+  margin-bottom: 30px;
   border-radius: 20px;
 }
 
