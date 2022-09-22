@@ -375,10 +375,8 @@ input:hover {
 
 .movies-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
+        flex-direction: column;
 }
 
 .banner-movie img {
@@ -389,9 +387,9 @@ input:hover {
 }
 
 .movies {
-    width: 80%;
+ 
     text-align: justify;
-    padding-left: 70px;
+    padding: 0 200px;
 }
 
 .movies h1 {
@@ -464,43 +462,43 @@ input:hover {
         gap: 25px;
     }
 
-        .conteudo-banner h1 {
+    .conteudo-banner h1 {
             font-weight: 900;
             font-size: 40px;
-        }
+    }
         
-        .conteudo-banner p {
+    .conteudo-banner p {
             font-size: 15px;
             font-weight: 300;
             padding: 30px;
             text-align: center;
-        }
+    }
 
-        .botao-explorar {
+    .botao-explorar {
             width: 200px;
             height: 60px;
-        }
+    }
 
-        .login-box {
+    .login-box {
             max-width: 80%;
-        }
+    }
 
-        .fundo-login {
+    .fundo-login {
             background-image: url(./img/fundobanner.png);
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
-        }
+    }
+   
+   .area-login {
+                max-width: 80%;
+    }
 
-        .area-login {
-            max-width: 80%;
-        }
-
-        .area-login img {
-            max-width: 90%;
-        }
+    .area-login img {
+                max-width: 90%;
+    }
 }
 
 @media (max-width: 688px) { 
@@ -528,5 +526,21 @@ input:hover {
         width: 200px;
         height: 60px;
     }
+
+    .movies {
+         padding: 0 50px;
+    }
+
+    .banner-movie img {
+        width: 80vw;
+        height: 40vw;
+        margin-top: 200px;
+        border-radius: 20px;
+      }
+
+    .youtube {
+        width: 400px;
+        height: 225px;
+      }
 }
 
