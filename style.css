@@ -8,15 +8,15 @@
 
 header {
     background-color: #ffffff;
-    position: fixed;
-    z-index: 10;
     width: 100%;
+
 }
 
 html {
     overflow-x: hidden;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    
 }
 
 body {
@@ -24,6 +24,7 @@ body {
     overflow-x: hidden;
     overflow-y: auto;
     perspective: 2px;
+    
 }
 
 input:active {
@@ -83,7 +84,7 @@ li:hover {
 }
 
 .banner {
-    background-image: url(./img/imagemFundo.png);
+    background-image: url(./img//img/imagemFundo.png);
     background-repeat: no-repeat;
     height: 1023px;
     background-size: cover;
@@ -93,6 +94,7 @@ li:hover {
     align-items: center;
     background-attachment: fixed;
     justify-content: center;
+
 }
 
 
@@ -327,7 +329,7 @@ li:hover {
 }
 
 .fundo-login {
-    background-image: url(./img/imagemFundo.png);
+    background-image: url(./img/img/imagemFundo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -487,15 +489,16 @@ div.titulo-filme {
 }
 
 .bg_video{
-    z-index: -1; 
-  
+    width: 1280px;  
 }
+
+
 
 .sinopse {
     font-style: bold;
     font-weight: 500;
     font-size: 25px;
-    margin-top: -42%;
+    margin-top: -38%;
 }
 
 .diretor-nomes {
@@ -530,19 +533,14 @@ div.titulo-filme {
 
 /* Responsividade */
 
-@media (max-width: 428px) {
+@media (max-width: 428px) {  
 
     header {
-        width: 428px;
+        width: 100%;
         height: 100px;
-        align-items: center;
     }
 
-    video {
-        margin-top: 100px;
-    }
-
-    .botao {
+   .botao {
         visibility: visible;
     }
 
@@ -551,15 +549,30 @@ div.titulo-filme {
         flex-direction: column;
     }
 
-    .menu-topo {
+    .menu-topo{
+        display: inline-flex;
         justify-content: space-around;
-        height: 100px;
+        height: 100px; 
+        width: 100%; 
+             
     }
 
-    .banner {
+   
+
+     .banner {
         background-image: url(./img/fundobanner.png);
         background-repeat: no-repeat;
         background-size: cover;
+
+    }
+
+    .titulo-capa {
+        width: 100%;
+    }
+
+    .titulo-capa p {
+        width: 438px;
+        margin-top: 10%;
 
     }
 
@@ -607,15 +620,8 @@ div.titulo-filme {
         align-items: center;
     }
 
-    .titulo-capa {
-        display: flex;
-        flex-direction: column;
-        width: 480px;
-    }
-
     .capa-filme {
-        margin-bottom: 50%;
-        margin-left: 10%;
+        width: 350px;
     }
 
     .texto-capa{
@@ -668,22 +674,19 @@ div.titulo-filme {
 
     .movies {
         padding: 0 50px;
-    }   
+    }  
+    
+    .bg_video{
+    width: 100%;   
+    }
 
 
 }
-
+/* ESTÁ DANDO ERRO NO RESTANTE DAS RESOLUÇÕES PRECISA SER VISTO
 @media (max-width: 688px) {
 
-    header {
-        width: 688px;
+    
         
-        align-items: center;
-    }
-
-    video {
-        margin-top: 150px;
-    }
 
     .lista-menu {
         flex-direction: column;
@@ -697,12 +700,7 @@ div.titulo-filme {
         margin-top: 12vh;
         margin-bottom: 2%;
     }
-    .titulo-capa {
-        display: flex;
-        flex-direction: column;
-        width: 688px;
-    }
-  
+      
 
     .capa-filme {
         margin-bottom: 50%;
@@ -770,4 +768,4 @@ div.titulo-filme {
         flex-direction: column;
         align-items: center;
     }
-}
+} */
