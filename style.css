@@ -436,6 +436,7 @@ div.titulo-filme {
     width: 1280px;
     background-color: #171717;
     justify-content: space-around;
+    align-items: center;
 }
 
 .imagens-filme img {
@@ -445,9 +446,10 @@ div.titulo-filme {
 }
 
 .diretor-info {
-    font-weight: 500;
+    
     font-size: 20px;
     line-height: 28px;
+    font-weight: bold;
     display: flex;
     margin-top: -40px;
     
@@ -503,6 +505,7 @@ div.titulo-filme {
 
 .diretor-nomes {
     margin-top: -55px;
+    
     display: flex;
     color: rgba(0, 133, 255, 0.75);
 }
@@ -655,8 +658,9 @@ div.titulo-filme {
 
     .texto-capa{
         display: block;
-        text-align: center;
-        width: 428px;
+        text-align: justify;
+        width: 420px;
+        margin-left: 4px;
     }
 
     .texto-capa p {
@@ -707,6 +711,32 @@ div.titulo-filme {
     
     .bg_video{
     width: 100%;   
+    }
+
+    .nota {
+        display: flex;
+        width: 329px;
+        height: 20px;
+        background-color: #171717;
+        margin-left: 50px;       
+        
+    }
+    
+    .nota img{
+        width: 20px; 
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .notaE {
+        display: flex;
+        gap: 2px;
+        
+    }
+    .notaE img {
+        width: 20px;
+        
     }
 
 
