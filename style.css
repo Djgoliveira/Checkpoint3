@@ -596,8 +596,6 @@ div.titulo-filme {
              
     }
 
-   
-
      .banner {
         background-image: url(./img/img/fundobanner.png);
         background-repeat: no-repeat;
@@ -687,7 +685,7 @@ div.titulo-filme {
         margin-bottom: 2%;
     }
 
-    #critica{
+    #critica {
     margin-bottom: 2%;
     }
 
@@ -723,8 +721,9 @@ div.titulo-filme {
         padding: 0 50px;
     }  
     
-    .bg_video{
-    width: 100%;   
+    .bg_video {
+    width: 100%;
+    padding-bottom: 30px;
     }
 
     .nota {
