@@ -558,6 +558,13 @@ div.titulo-filme {
     
 }
 
+#back-to-top {
+    display: flex;    
+    background-color: #E51B3E;   
+    
+  }
+
+
 
 
 
@@ -638,7 +645,7 @@ div.titulo-filme {
     }
 
     .fundo-login {
-        background-image: url(./img/fundobanner.png);
+        background-image: url(./img/img/imagemFundo.png);
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
@@ -654,6 +661,7 @@ div.titulo-filme {
 
     .capa-filme {
         width: 350px;
+        align-items: center;
     }
 
     .texto-capa{
@@ -661,6 +669,12 @@ div.titulo-filme {
         text-align: justify;
         width: 420px;
         margin-left: 4px;
+    }
+
+    .texto-capa .capa-filme {
+        align-items: center;
+        justify-content: center; 
+        width: 420px;
     }
 
     .texto-capa p {
