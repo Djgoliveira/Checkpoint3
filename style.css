@@ -531,7 +531,7 @@ div.titulo-filme {
 }
 
 #img {
-    margin-top: 30px;
+    padding: 20px;
 }
 
 .nota {
@@ -624,7 +624,7 @@ div.titulo-filme {
     }
 
     #img {
-        padding: 0 20px;
+        padding: 20px;
     }
 
     #rodape {
